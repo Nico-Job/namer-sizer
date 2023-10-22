@@ -24,4 +24,9 @@ function setup()
                difference = floor(leftWristX - rightWristX); 
                console.log("leftWristX = " + leftWristX + " rightWristX = "+ rightWristX + " difference = " + difference); 
             } } 
-            
+            function draw()
+            { background('#FFC0CB');
+            document.getElementById("name_side").innerHTML = "Width And Height of the Name will be = " + difference +"px"; 
+             fill('#000000'); 
+             stroke('#0AFD8D'); 
+           Name(noseX, noseY, difference); }
