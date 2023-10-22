@@ -27,6 +27,7 @@ function setup()
             function draw()
             { background('#FFC0CB');
             document.getElementById("name_side").innerHTML = "Width And Height of the Name will be = " + difference +"px"; 
+            textsize(18);
              fill('#000000'); 
              stroke('#0AFD8D'); 
           text(Nico 50,400); }
